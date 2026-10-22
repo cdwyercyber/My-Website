@@ -1,0 +1,71 @@
+* {
+    margin: 1.2rem;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #70bdda;
+}
+
+h1 {
+    font-family: 'Arial Black', sans-serif;
+    color: #13053a;
+    text-align: center;
+    font-size: 2.75rem;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-family: 'Arial Black', sans-serif;
+    color: #13053a;
+    text-align: center;
+    font-size: 2rem;
+}
+
+#about-me {
+    float: left;
+    color: #13053a;
+    line-height: 2.3rem;
+    text-align: left;
+    font-size: 1.2rem;
+    border: 0.2rem solid #15081f;
+    padding: 0.7rem;
+    width: 56%;
+    margin-bottom: 5rem;
+    margin-right: 0.5rem;
+}   
+
+#about-me > p {
+    margin: 1.5rem;
+}
+
+#hobbies {
+    float: left;
+    color: #13053a;
+    line-height: 2.12rem;
+    text-align: left;
+    font-size: 1.2rem;
+    border: 0.2rem solid #15081f;
+    padding: 0.7rem;
+    width: 35%;
+    margin-bottom: 3rem;
+}
+
+
+#hiking_photos {
+    clear: both;
+    color: #13053a; 
+    font-family: 'Arial Black', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    border: 0.2rem solid #04010f;
+    padding: 1rem;
+    width: 100% auto;
+    margin: 0.5rem auto;
+    margin-bottom: 3rem;
+}
+
+#hiking_photos img {
+    border: 0.7rem solid #13053a;
+    box-shadow: 1rem 1rem 2rem #211326;
+}
