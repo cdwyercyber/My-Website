@@ -3,15 +3,41 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #70bdda;
+    font-family: "Comic Sans MS", cursive;
+    background: linear-gradient(180deg,
+    #ff00ff 0%,
+    #00ffff 2%,
+    #000000 3%,
+    #000000 8%,
+    #00ff00 9%,
+    #ff00ff 10%,
+    #000000 12%,
+    #000000 20%,
+    #00ffff 22%,
+    #ff00ff 24%,
+    #000000 27%,
+    #000000 40%,
+    #ff00ff 42%,
+    #00ff00 44%,
+    #000000 48%,
+    #000000 55%,
+    #00ffff 57%,
+    #2200ff 60%,
+    #000000 63%,
+    #000000 75%,
+    #ff00ff 77%,
+    #00ff00 80%,
+    #000000 83%,
+    #000000 100%
+);
+
 }
 
 h1 {
     font-family: 'Arial Black', sans-serif;
     color: #13053a;
     text-align: center;
-    font-size: 2.75rem;
+    font-size: 10rem;
     margin-bottom: 2rem;
 }
 
@@ -23,53 +49,116 @@ h2 {
 }
 
 #about-me {
+    font-family:fantasy;
     float: left;
-    color: #13053a;
-    line-height: 2.3rem;
-    text-align: left;
-    font-size: 1.2rem;
-    border: 0.2rem solid #15081f;
-    padding: 0.7rem;
-    width: 56%;
+    color: #210321;
+    line-height: 6rem;
+    text-align: center;
+    font-size: 5rem;
+    border: 8rem double #ffffff;
+    padding: 5rem;
+    width: 50%;
+    height: 50rem;
     margin-bottom: 5rem;
     margin-right: 0.5rem;
 }   
 
 #about-me > p {
-    margin: 1.5rem;
+    margin: 5rem;
 }
 
 #hobbies {
     float: left;
-    color: #13053a;
-    line-height: 2.12rem;
-    text-align: left;
-    font-size: 1.2rem;
-    border: 0.2rem solid #15081f;
-    padding: 0.7rem;
-    width: 35%;
+    color: #ff00c3;
+    line-height: 20rem;
+    text-align: right;
+    font-size: 0.945939rem;
+    border: 0.8rem solid #ff0202;
+    padding: 3rem;
+    width: 30%;
     margin-bottom: 3rem;
 }
 
 
 #hiking_photos {
     clear: both;
-    color: #13053a; 
+    color: #151515; 
     font-family: 'Arial Black', sans-serif;
-    text-align: center;
+    text-align: right;
     font-size: 2rem;
-    border: 0.2rem solid #04010f;
-    padding: 1rem;
+    border: 5rem solid #f7ff06;
+    padding: 5rem;
     width: 100% auto;
-    margin: 0.5rem auto;
+    margin: 10rem;
     margin-bottom: 3rem;
+   background: linear-gradient(90deg,
+    #ff00ff 0%,
+    #ff00ff 20%,
+    #000000 20%,
+    #000000 40%,
+    #00ffff 40%,
+    #00ffff 60%,
+    #ff0000 60%,
+    #ff0000 80%,
+    #a6bb0a 80%,
+    #e7fc00 100%);
 }
 
 #hiking_photos img {
-    border: 0.7rem solid #13053a;
-    box-shadow: 1rem 1rem 2rem #211326;
+    border: 3rem dashed #33ff00;
+    box-shadow: 1rem 1rem 500rem #211326;
 }
 
 a:hover {
-    color: #ffffff;
+    color: #ff00a6;
+}
+
+a {
+    font-size: 10rem;
+    margin-left: 15%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.second_page {
+    background: orange;
+}
+
+#column-one {
+    float: left;
+    width: 45%;
+    height: 60rem;
+    background-color: lime;
+    color: red;
+    font-size: 20rem;    
+}
+
+#column-two {
+    float: left;
+    width: 45%;
+    height: 80rem;
+    background-color: yellow;
+    color: rgb(138, 101, 138);
+    font-size: 12rem; 
 }
