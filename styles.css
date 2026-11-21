@@ -209,19 +209,6 @@ footer {
 /* media queries */
 @media (max-width: 900px) {
 
-    #main-nav ul {
-        flex-wrap: wrap;
-    }
-
-    #main-nav li {
-        flex: 1 1 30%;
-    }
-
-    #main-nav a {
-        font-size: 14px;
-        padding: 12px 5px;
-        white-space: normal;
-    }
 
     main {
         padding: 30px;
