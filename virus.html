@@ -30,11 +30,11 @@
             <li><a href="about.html">About Me</a></li>
             <li><a href="malware.html">Malware</a></li>
             <li><a href="virus.html">Viruses</a></li>
-            <li><a >Trojans</a></li>
-            <li><a >Rootkits</a></li>
-            <li><a >Worms</a></li>
-            <li><a >Ransomware</a></li>
-            <li><a >Spyware</a></li>
+            <li><a href="trojan.html">Trojans</a></li>
+            <li><a href="rootkit.html">Rootkits</a></li>
+            <li><a href="worm.html">Worms</a></li>
+            <li><a href="ransomware.html">Ransomware</a></li>
+            <li><a href="spyware.html">Spyware</a></li>
         </ul>
 
     </nav>
@@ -49,20 +49,20 @@
 
             <p>
                 A computer virus is a type of malware that attaches
-                itself to a legitimate file or program. When that
-                infected file is opened or executed, the virus can
-                activate and attempt to infect other files on the
-                system. Unlike worms, traditional computer viruses
-                depend on a host file or program to spread.
+                itself to a normal file or program, and when that
+                infected file is opened or run, the virus can
+                activate and try to infect other files on the
+                computer. Unlike worms, traditional computer viruses
+                need a host file or program in order to spread.
             </p>
 
             <p>
-                Viruses can perform different malicious actions,
-                including corrupting files, modifying system
-                settings, stealing information, or disrupting
-                normal computer operations. Some viruses also
-                contain triggers that determine when their
-                malicious activity begins.
+                Viruses can do different types of damage, such as
+                corrupting files, changing system settings, stealing
+                information, or interfering with how a computer
+                normally works. Some viruses also have triggers
+                that determine when they become active and begin
+                carrying out their actions.
             </p>
 
         </section>
@@ -74,83 +74,106 @@
 
             <p>
                 Viruses work by attaching their code to another
-                file or program. Once the infected file is executed,
-                the virus can run its instructions and attempt
-                to create additional infected copies.
+                file or program, and once that infected file is
+                opened or run, the virus can start carrying out
+                its instructions and try to create more infected
+                copies.
             </p>
 
             <h3>Infection and Replication</h3>
 
             <p>
                 The virus attaches itself to a host file and uses
-                that file to execute. It may then search for other
-                files or programs that it can infect, allowing
-                it to spread throughout a system.
+                that file to run, and from there it may look for
+                other files or programs that it can infect, allowing
+                it to continue spreading throughout the computer.
             </p>
 
             <h3>Activation and Payload</h3>
 
             <p>
-                Some viruses remain inactive until a specific
-                condition is met, such as a particular date or
-                system event. Once activated, the virus carries
-                out its payload, which is the action it was
-                designed to perform.
+                Some viruses stay inactive until a certain
+                condition is met, such as a specific date or
+                something happening on the computer. Once the
+                virus becomes active, it carries out its payload,
+                which is just the action it was designed
+                to perform.
             </p>
 
         </section>
 
+
         <!-- types of viruses -->
-        <section>
+        <section id="virus-types">
 
             <h2>Types of Computer Viruses</h2>
 
             <p>
-                Computer viruses can be categorized by how they
-                infect files and systems. Different types use
-                different techniques to spread and avoid detection.
+                There are different types of computer viruses, and
+                each one works a little differently depending on
+                what it targets and how it spreads throughout a system.
             </p>
 
-            <h3>File Infector Viruses</h3>
+            <!-- grid layout for virus types -->
+            <div class="content-grid">
 
-            <p>
-                Attach themselves to executable files and activate
-                when an infected program is run.
-            </p>
+                <div class="content-card">
+                    <h3>File Infector Viruses</h3>
 
-            <h3>Boot Sector Viruses</h3>
+                    <p>
+                        Attach themselves to program files and
+                        activate when someone opens or runs an
+                        infected program, allowing the virus to
+                        spread to other files on the computer.
+                    </p>
+                </div>
 
-            <p>
-                Infect areas of a storage device used during the
-                computer startup process, allowing the virus
-                to execute when the system boots.
-            </p>
+                <div class="content-card">
+                    <h3>Boot Sector Viruses</h3>
 
-            <h3>Macro Viruses</h3>
+                    <p>
+                        Infect parts of a storage device that are
+                        used when a computer starts up, allowing
+                        the virus to activate during the boot
+                        process and potentially affect the system.
+                    </p>
+                </div>
 
-            <p>
-                Use macro commands in applications such as
-                Microsoft Word and Excel. They can spread
-                through infected documents when macros are
-                allowed to execute.
-            </p>
+                <div class="content-card">
+                    <h3>Macro Viruses</h3>
 
-            <h3>Multipartite Viruses</h3>
+                    <p>
+                        Use macros in programs, like Microsoft Word
+                        and Excel, to infect documents, and can
+                        spread when those documents are shared
+                        with others and the macros are allowed to run.
+                    </p>
+                </div>
 
-            <p>
-                Infect multiple areas of a system, such as
-                executable files and boot sectors, using
-                more than one infection method.
-            </p>
+                <div class="content-card">
+                    <h3>Multipartite Viruses</h3>
 
-            <h3>Polymorphic Viruses</h3>
+                    <p>
+                        Infect multiple parts of a computer, such
+                        as program files and boot sectors, which
+                        allows them to spread using different
+                        methods and affect more than one area
+                        of a system.
+                    </p>
+                </div>
 
-            <p>
-                Change parts of their code as they replicate,
-                making it harder for traditional antivirus
-                software to recognize them using known
-                signatures.
-            </p>
+                <div class="content-card">
+                    <h3>Polymorphic Viruses</h3>
+
+                    <p>
+                        Change parts of their code as they spread
+                        and create new copies, making it harder
+                        for antivirus software to recognize them
+                        because they don't always look the same.
+                    </p>
+                </div>
+
+            </div>
 
         </section>
 
@@ -160,9 +183,8 @@
             <h2>How Do Viruses Spread?</h2>
 
             <p>
-                Viruses commonly spread when infected files
-                are transferred between devices and executed.
-                Some common ways this happens include:
+                Viruses spread when infected files
+                are transferred between devices and executed, some examples being through:
             </p>
 
             <ul>
@@ -175,62 +197,6 @@
 
         </section>
 
-        <!-- virus vs worm -->
-        <section>
-
-            <h2>Viruses vs. Worms</h2>
-
-            <p>
-                Viruses and worms are both types of self-replicating
-                malware, but they spread differently. A virus
-                attaches itself to a host file or program, while
-                a worm is a standalone program that can replicate
-                and spread independently.
-            </p>
-
-            <p>
-                Worms commonly spread across networks by exploiting
-                vulnerabilities in connected systems. Understanding
-                this difference helps explain how different types
-                of malware infect devices and networks.
-            </p>
-
-        </section>
-
-        <!-- detection and prevention -->
-        <section>
-
-            <h2>Detection and Prevention</h2>
-
-            <p>
-                Antivirus software helps detect and remove viruses
-                by examining files and monitoring suspicious
-                activity. Different detection methods are used
-                to identify known threats and potentially
-                malicious programs.
-            </p>
-
-            <h3>Detection Methods</h3>
-
-            <ul>
-                <li><strong>Signature-based:</strong> Compares files against known malware signatures.</li>
-                <li><strong>Heuristic:</strong> Examines code for characteristics associated with malicious software.</li>
-                <li><strong>Behavior-based:</strong> Monitors program activity for suspicious actions.</li>
-            </ul>
-
-            <h3>Preventing Infections</h3>
-
-            <ul>
-                <li>Keep operating systems and applications updated.</li>
-                <li>Use reputable antivirus software.</li>
-                <li>Avoid suspicious email attachments and downloads.</li>
-                <li>Only download files from trusted sources.</li>
-                <li>Be careful when enabling macros in documents.</li>
-                <li>Keep backups of important files.</li>
-            </ul>
-
-        </section>
-
         <!-- research and references -->
         <section>
 
@@ -238,8 +204,7 @@
 
             <p>
                 Want to learn more? The following research papers and publications
-                provide additional information about computer
-                viruses, malware analysis, and detection!
+                provide additional information below!
             </p>
 
             <ul class="reference-list">
