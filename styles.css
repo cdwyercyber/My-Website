@@ -230,8 +230,8 @@ footer {
 }
 
 #main-nav .dropdown-menu a {
-    font-size: 20px;
-    padding: 20px 12px;
+    font-size: 1.1vw;
+    padding: 1.4vw 0.8vw;
     font-style: italic;
     white-space: nowrap;
 }
