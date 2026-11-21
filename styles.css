@@ -282,3 +282,17 @@ footer {
         font-size: 26px;
     }
 }
+
+@media (max-width: 480px) {
+
+    #main-nav a {
+        font-size: 14px;
+        padding: 12px 2px;
+    }
+
+    #main-nav .dropdown-menu a {
+        font-size: 8px;
+        padding: 8px 2px;
+    }
+
+}
