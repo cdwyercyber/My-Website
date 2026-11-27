@@ -1,0 +1,15 @@
+
+One suggestion I received was that my virus page was pretty text-heavy,
+and that I could make the five types of computer viruses easier to distinguish
+by putting them into separate boxes with titles and definitions.
+
+Another suggestion was that my navigation menu needed to be more responsive,
+since the Spyware link was wrapping onto a second row on certain screen sizes,
+especially when using an ultrawide monitor with windows side by side.
+
+I split the five virus types into their own boxes with titles and definitions
+to make the page easier to read (while also trimming some of the excess information)
+and I also adjusted the navigation CSS and media queries
+so the menu does NOT break at different screen sizes
+
+(I implemented these in last week's submission)

@@ -1,3 +1,11 @@
+
+
+/* Google Fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
 /* background styling */
 html {
     background: linear-gradient(#221e1e, #1a0f0f, #3c0d0d);
@@ -5,7 +13,7 @@ html {
 
 /* page styling */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', Arial, sans-serif;
     width: 80%;
     margin: auto;
     color: #e0e0e0;
@@ -295,4 +303,24 @@ footer {
         padding: 8px 2px;
     }
 
+}
+
+
+
+
+
+/* AI threats table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #871b1b;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #585050;
 }
